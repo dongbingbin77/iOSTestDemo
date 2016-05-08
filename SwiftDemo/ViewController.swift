@@ -12,6 +12,10 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
+        let name = "123";
+        let name1 = (name as NSString).integerValue;
+        print(name);
+        print("djidf:\(name1)");
         // Do any additional setup after loading the view, typically from a nib.
     }
 
